@@ -1,0 +1,45 @@
+---
+indexpage:
+  title: Documentação de resiliência operacional da BlueXP 
+  summary: A resiliência operacional do BlueXP  é um serviço que ajuda você a analisar
+    alertas e eventos para manter a integridade, o tempo de atividade e a performance
+    de serviços e soluções. Usando o serviço de resiliência operacional e as sugestões
+    de correção de risco operacional de TI automatizada, você pode implementar as
+    soluções sugeridas antes que ocorra uma interrupção ou falha.
+  keywords: operational resiliency, bluexp, cluster, ontap
+  lead: A resiliência operacional do BlueXP  é um serviço que ajuda você a analisar
+    alertas e eventos para manter a integridade, o tempo de atividade e a performance
+    de serviços e soluções. Usando o serviço de resiliência operacional e as sugestões
+    de correção de risco operacional de TI automatizada, você pode implementar as
+    soluções sugeridas antes que ocorra uma interrupção ou falha.
+  tiles:
+  - title: Comece agora
+    links:
+    - title: Saiba mais sobre a resiliência operacional do BlueXP 
+      url: "/get-started/intro.html"
+    - title: O que há de novo
+      url: "/release-notes/whats-new.html"
+    - title: Início rápido
+      url: "/get-started/quick-start.html"
+    - title: Pré-requisitos
+      url: "/get-started/prerequisites.html"
+    - title: Inicie sessão no serviço no BlueXP 
+      url: "/get-started/login.html"
+    - title: FAQ
+      url: "/get-started/faq.html"
+  - title: Use a resiliência operacional do BlueXP 
+    links:
+    - title: Revise e corrija problemas de segurança
+      url: "/use/remediate-overview.html"
+    - title: Corrija problemas automaticamente
+      url: "/use/remediate-auto.html"
+    - title: Corrija problemas com um manual de estratégia do Ansible
+      url: "/use/remediate-ansible.html"
+    - title: Determinar o status da correção de risco
+      url: "/use/remediate-status.html"
+  - title: Blogs & comunidade
+    links:
+    - title: Comunidade NetApp
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: Webinars na nuvem
+      url: https://bluexp.netapp.com/events

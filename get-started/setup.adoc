@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: get-started/setup.html 
+keywords: bluexp, operational resiliency, risk remediate 
+summary: A primeira etapa no caminho para o uso do serviço de resiliência operacional da BlueXP  é disponibilizar os dados a partir das ferramentas de monitoramento no seu ambiente. 
+---
+= Configurar a resiliência operacional do BlueXP 
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+A primeira etapa no caminho para usar a resiliência operacional do BlueXP  é disponibilizar os dados nas ferramentas de monitoramento do seu ambiente.
+
+A configuração do serviço envolve as seguintes etapas:
+
+* Revise link:../get-started/prerequisites.html["pré-requisitos"] para garantir que seu ambiente esteja pronto
+* Opcionalmente, antes de usar o serviço, crie um conetor no BlueXP 
+* Opcionalmente, antes de usar o serviço, descubra o cluster no BlueXP 
+
+
+
+
+== Crie um conetor no BlueXP 
+
+Um conector BlueXP  inclui credenciais para máquinas NetApp ONTAP para que o serviço de resiliência operacional possa aconselhar sobre riscos de segurança e executar correções.
+
+Você pode criar um conector diretamente no BlueXP  e usá-lo no serviço de resiliência operacional. Ou, você pode iniciar o processo de olhar para o cluster e, no meio desse processo, implantar o conetor.
+
+Para criar um conetor no BlueXP  antes de usar o serviço, consulte a documentação do BlueXP  que descreve https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Como criar um conetor"^]o .
+
+
+
+== Descubra o cluster no BlueXP 
+
+Parte da configuração envolve a identificação do nome do cluster, IP, nome de usuário e senha no BlueXP .
+
+Para obter instruções, consulte a documentação do BlueXP  que explica https://docs.netapp.com/us-en/bluexp-setup-admin/index.html["como identificar o cluster"^].

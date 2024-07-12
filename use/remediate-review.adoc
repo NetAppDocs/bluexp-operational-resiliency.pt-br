@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: use/remediate-review.html 
+keywords: bluexp, operational resiliency, remediate, security risk remediation 
+summary: A resiliência operacional do BlueXP  identifica os riscos de segurança no cluster do ONTAP no local. 
+---
+= Analisar problemas de risco de segurança
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+A resiliência operacional do BlueXP  identifica os riscos de segurança no cluster do ONTAP no local.
+
+Analisar os riscos e executar a correção automatizada envolve os seguintes processos:
+
+* Crie um conetor no BlueXP  (se ainda não existir um para o serviço de resiliência operacional).
+* Descubra o cluster (se ainda não existir um para o serviço).
+* Execute a correção ou faça o download de um manual do Ansible.
+* Veja o status da correção.
+
+
+.Passos
+. Na navegação à esquerda do BlueXP , selecione *Saúde* > *resiliência operacional* > *remediação de risco*.
+. Na lista de riscos, classifique pela coluna nível de impactos para ver primeiro os riscos mais elevados.
+. Selecione o risco e veja detalhes adicionais.
+. Selecione *Remedie o risco*.
+. Execute um dos seguintes procedimentos:
++
+** Para cada cluster, selecione *Remediate*.
++
+Essa ação leva à correção automática do problema (depois de selecionar *execute* para iniciar a correção). Continue com link:../use/remediate-auto.html["Corrija problemas de risco automaticamente"].
+
+** Para corrigir o problema sozinho com um manual do Ansible, selecione *Download*. Continue com link:../use/remediate-ansible.html["Corrija problemas de risco com um manual de estratégia do Ansible"].
+
+
+

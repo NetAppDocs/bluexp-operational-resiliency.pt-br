@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: use/remediate-ansible.html 
+keywords: bluexp, operational resiliency, remediate, security risk remediation 
+summary: Você pode analisar os riscos de segurança e fazer download de um manual do Ansible que pode seguir para corrigir o problema. 
+---
+= Corrija riscos com um manual de estratégia do Ansible
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+Você pode analisar os riscos de segurança e fazer download de um manual do Ansible que pode seguir para corrigir o problema.
+
+É possível fazer download de um manual do Ansible, um sistema de implantação de código aberto que permite executar tarefas de configuração. Para usar o Ansible, basta executar o arquivo de manual, que usa os arquivos de inventário e auxiliares armazenados no mesmo diretório.
+
+.O que você vai precisar
+O sistema precisa poder acessar o IP do cluster pela rede para executar playbooks do Ansible.
+
+.Passos
+. Na navegação à esquerda do BlueXP , selecione *Saúde* > *resiliência operacional* > *remediação de risco*.
+. Na lista de riscos, classifique pela coluna nível de impactos para ver primeiro os riscos mais elevados.
+. Selecione o risco e selecione *risco corretivo*.
+. Para fazer o download de um manual do Ansible que você usa para corrigir o problema sozinho, selecione *Download*.
++
+O serviço instala o manual de estratégia do Ansible nas máquinas locais em um local que você escolher. O manual de estratégia é baixado como um arquivo zip, que contém vários arquivos YML.
+
+. Localize o manual do Ansible na pasta de download.
+. Execute o manual de estratégia do Ansible:
++
+[listing]
+----
+$ ansible-playbook <playbook.yml>
+----
++
+Para obter instruções sobre como usar um manual do Ansible, consulte o https://docs.ansible.com/ansible/latest/network/getting_started/first_playbook.html["Documentação do Ansible"^].
+
+. Siga as instruções no manual de estratégia.
+

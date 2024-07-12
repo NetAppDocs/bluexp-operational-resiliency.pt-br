@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: use/remediate-auto.html 
+keywords: bluexp, operational resiliency, remediate, security risk remediation 
+summary: Se você selecionou a opção remediar, o serviço poderá implementar a correção para você. 
+---
+= Corrija o problema automaticamente
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+Se você selecionou a opção *remediar* na resiliência operacional do BlueXP , o serviço poderá implementar a correção para você.
+
+.Passos
+. Na navegação à esquerda do BlueXP , selecione *Saúde* > *resiliência operacional* > *remediação de risco*.
+. Na página de remediação de risco, classifique pela coluna nível de impactos para ver os riscos mais altos primeiro.
+. Selecione o risco e selecione *risco corretivo*.
+. Para cada cluster, selecione *Remediate*.
++
+As instruções aparecem, dependendo do problema. Algumas das opções nesta página não aparecem se existir um conetor BlueXP  ou se for conhecido um cluster.
+
++
+** Se um conetor não existir ou ainda não estiver ativado, o serviço exibirá a página criar um conetor, onde você pode criar o conetor. Se o conetor existir, mas não estiver ativo, você deverá ativá-lo no serviço do provedor de nuvem.
++
+Consulte a documentação do BlueXP  que descreve https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Como criar um conetor"^]o .
+
+** Se um cluster não existir, o serviço exibe uma página onde você identifica o cluster.
++
+Consulte a documentação do BlueXP  que explica https://docs.netapp.com/us-en/bluexp-setup-admin/index.html["como identificar o cluster"^].
+
+
+
+. Depois que o conetor for implantado e o cluster for descoberto, revise a correção.
++
+Se você selecionou a opção *Remediar* para que o serviço implemente a correção para você, a página Revisão e execução da correção necessária será exibida.
+
+. Reveja o risco e outras informações.
+. Selecione *Executar*.
++
+Esta ação implanta o conetor (se ainda não tiver sido feito), descobre o cluster, transfere a correção e implementa automaticamente a correção no cluster selecionado.
+
+. Para exibir o status da correção, observe o nome do cluster na página Status da correção.
+

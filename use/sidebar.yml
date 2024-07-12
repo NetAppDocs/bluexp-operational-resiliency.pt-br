@@ -1,0 +1,14 @@
+---
+section: use
+title: Use a resiliência operacional do BlueXP 
+entries:
+- title: Revise e corrija problemas de segurança
+  url: "/use/remediate-overview.html"
+- title: Reveja os problemas de segurança
+  url: "/use/remediate-review.html"
+- title: Corrija problemas automaticamente
+  url: "/use/remediate-auto.html"
+- title: Corrija problemas com um manual de estratégia do Ansible
+  url: "/use/remediate-ansible.html"
+- title: Determine o status da correção
+  url: "/use/remediate-status.html"

@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: operational resiliency faq, operational resiliency frequently asked questions, firmware risks 
+summary: Saiba o que há de novo na resiliência operacional do BlueXP . 
+---
+= O que há de novo
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Saiba o que há de novo na resiliência operacional do BlueXP .
+
+
+
+== 02 de abril de 2023
+
+Com o novo serviço de resiliência operacional da BlueXP  e as sugestões de correção automatizada de risco operacional de TI, você pode implementar as correções sugeridas antes que ocorra uma interrupção ou falha.
+
+A resiliência operacional é um serviço que ajuda você a analisar alertas e eventos para manter a integridade, o tempo de atividade e a performance de serviços e soluções.
+
+link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/intro.html["Saiba mais sobre a resiliência operacional do BlueXP"].
