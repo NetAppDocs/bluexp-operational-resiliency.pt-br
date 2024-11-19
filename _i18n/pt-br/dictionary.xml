@@ -13,7 +13,6 @@
   <block id="490d590118714dd56e7c49c9dc1016d6" category="summary">A resiliência operacional do BlueXP  é um serviço que ajuda você a analisar alertas e eventos para manter a integridade, o tempo de atividade e a performance de serviços e soluções. Usando o serviço de resiliência operacional e as sugestões de correção operacional automatizada DE TI, você pode implementar as soluções sugeridas antes que ocorra uma interrupção ou falha.</block>
   <block id="e4062e43ecd3e9b66ed3efe3150aa1d3" category="doc">Saiba mais sobre a resiliência operacional do BlueXP </block>
   <block id="5d84361178f8487227dcab9eb32e9312" category="paragraph">A resiliência operacional do BlueXP  é um serviço que ajuda você a analisar alertas e eventos para manter a integridade, o tempo de atividade e a performance de serviços e soluções. Usando o serviço de resiliência operacional e as sugestões de correção de risco operacional de TI automatizada, você pode implementar as soluções sugeridas antes que ocorra uma interrupção ou falha.</block>
-  <block id="6b5aa1fcaf53fdb7faa3abc66c3936e3" category="paragraph">Este serviço BlueXP  implementa correções para clusters do NetApp ONTAP com base nas orientações do consultor digital (Active IQ) da BlueXP . O serviço deteta vulnerabilidades de segurança, como problemas de configuração de firmware e software.</block>
   <block id="18096d7d55c678c44a691f68acf1192b" category="section-title">Benefícios do uso da resiliência operacional do BlueXP </block>
   <block id="bd92f54b050c6c9326ecedaec0f8f909" category="paragraph">A resiliência operacional do BlueXP  oferece os seguintes benefícios:</block>
   <block id="62540663380c02ec00b1e7931e30617d" category="list-text">Procedimentos automatizados para correções no cluster</block>
@@ -46,8 +45,6 @@
   <block id="69b085a23d3ed85c84455b9288792bf2" category="inline-link">Início rápido do BlueXP </block>
   <block id="45e7f38a8238b36c23e85bbe6436ba0b" category="inline-link">Informações de rede do BlueXP </block>
   <block id="7d7127ef879a78562b832b07e0467e4d" category="paragraph">Consulte a<block ref="dbb33dbf9eb2131f5e9c130f8d43d40b" category="inline-link-rx"></block> e<block ref="80109aba99cda75e73f8aee37e8d3028" category="inline-link-rx"></block>a .</block>
-  <block id="4047eed73fb147faca2a60e49cd11bd3" category="inline-link">Documentação do consultor digital da BlueXP </block>
-  <block id="79489f774fae583d2ef44553677325d2" category="list-text">O serviço exige que todos os clusters sejam monitorados pelo BlueXP  digital ADVISOR (Active IQ), que requer o AutoSupport habilitado no ativo. Consulte a<block ref="28ad866a93984325ed92c672458a0234" category="inline-link-rx"></block>.</block>
   <block id="a3538d61b66c68f21178c789ab57dc45" category="list-text">Você precisa ter credenciais de acesso aos clusters.</block>
   <block id="b195ee77502e843664bcba163b60d4ad" category="list-text">Para correção automática, é necessário um conetor BlueXP . É útil se o BlueXP  Connector estiver ativo e ativado e o sistema ONTAP for descoberto antes de iniciar a correção usando a resiliência operacional do BlueXP . Se o conetor não estiver no lugar, o serviço de resiliência operacional orienta você por esses processos. Se, em vez disso, você corrigir usando um arquivo Ansible, o BlueXP  Connector não será necessário.</block>
   <block id="92100e0b26cf551afa26cc89d4914d49" category="summary">Comece a usar o serviço de resiliência operacional da NetApp BlueXP  em algumas etapas.</block>
@@ -353,4 +350,7 @@
   <block id="dd76577d0fda67d24563883480d82c24" category="sidebar">Reveja os problemas de segurança</block>
   <block id="fc42475b6d973f576b48ed3139510d1a" category="sidebar">Determine o status da correção</block>
   <block id="ee97d7a6f8cd51410930ad6fd6c7d715" category="doc">Serviço de resiliência operacional do BlueXP </block>
+  <block id="5837045b4a274916acb6680b003d1c2b" category="paragraph">Este serviço BlueXP  implementa correções para clusters do NetApp ONTAP com base nas orientações do consultor digital da Active IQ (também conhecido como consultor digital). O serviço deteta vulnerabilidades de segurança, como problemas de configuração de firmware e software.</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Documentação do Digital Advisor</block>
+  <block id="d2a40e1969d512b879525670f7f544d5" category="list-text">O serviço exige que todos os clusters sejam monitorados pelo consultor digital, o que requer o AutoSupport habilitado no ativo. Consulte a<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block>.</block>
 </blocks>

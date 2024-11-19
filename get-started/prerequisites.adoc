@@ -20,7 +20,7 @@ Para usar o serviço de resiliência operacional, você deve garantir que seu am
 +
 Consulte a https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["Início rápido do BlueXP "^] e https://docs.netapp.com/us-en/bluexp-setup-admin/reference-networking-saas-console.html["Informações de rede do BlueXP "^]a .
 
-* O serviço exige que todos os clusters sejam monitorados pelo BlueXP  digital ADVISOR (Active IQ), que requer o AutoSupport habilitado no ativo. Consulte a https://docs.netapp.com/us-en/active-iq/index.html["Documentação do consultor digital da BlueXP "^].
+* O serviço exige que todos os clusters sejam monitorados pelo consultor digital, o que requer o AutoSupport habilitado no ativo. Consulte a https://docs.netapp.com/us-en/active-iq/index.html["Documentação do Digital Advisor"^].
 * Você precisa ter credenciais de acesso aos clusters.
 * Para correção automática, é necessário um conetor BlueXP . É útil se o BlueXP  Connector estiver ativo e ativado e o sistema ONTAP for descoberto antes de iniciar a correção usando a resiliência operacional do BlueXP . Se o conetor não estiver no lugar, o serviço de resiliência operacional orienta você por esses processos. Se, em vez disso, você corrigir usando um arquivo Ansible, o BlueXP  Connector não será necessário.
 
